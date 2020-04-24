@@ -1,21 +1,15 @@
-# 切版練習02 #
+切版
 
-請[參照此網站](https://www.oxo.com/) 竟可能的切出一模一樣的畫面
-素材都可以直接從此網站上抓取，html架構可以自己更改，但畫面要一樣
+內容近乎為手刻除用到一些 plugins
+設計原稿為前輩所建議設計的網站 ( https://www.oxo.com/ )
+以模仿他作為對個人技能了解及加強之用途
 
-## 目的: ##
+使用到的工具:
 
-學習此網站的html架構，觀察一下他們是怎麼命名class name
-以及css的寫法
-文字以及圖片的間距，還有滑鼠的互動效果
-在RWD上又是如何變化的
-
-## Git: ##
-
-* 開分支切版(命名都可以)，不可以在Master上commit
-* 請每天下班前push上來
-* 如果切好的區塊可以發PR(Pull Request)
-
-有任何問題~在詢問我
-
-Susan
+- HTML
+- CSS
+- JavaScript
+- Node.js
+- Swiper ( https://swiperjs.com/ )
+- Free-icons ( https://icons8.com/icons )
+- 圖片為原網站之來源 ( https://www.oxo.com/ )
