@@ -1,0 +1,30 @@
+@media (min-width: 375px) {
+  .panel-header {
+    padding: 0;
+    text-align: center;
+  }
+  .header-links {
+    display: none;
+  }
+  .nav-section {
+    display: none;
+  }
+  .search-text {
+    display: none;
+  }
+  .search-icon::before {
+    margin-right: 0;
+  }
+  .header-content {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-cart_container {
+    width: 100px;
+    right: 20px;
+  }
+  .nav-toggle_icon {
+    display: block;
+  }
+}

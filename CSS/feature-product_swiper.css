@@ -1,0 +1,67 @@
+/* feature-product_swipe */
+
+.feature-product_swiper-slide {
+    display: flex;
+    width: 1920px;
+    height: auto;
+    margin-left: -120px;
+}
+
+.feature-product_swiper-container {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: 120px;
+}
+
+.feature-product_swiper-container .swiper-slide {
+    display: inline-block;
+    height: 300px;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 2s ease;
+}
+
+.feature-product_swiper-container .swiper-slide:hover {
+    transform: scale(1.1);
+}
+
+.feature-product_swiper_button-prev {
+    display: inline-flex;
+    position: relative;
+}
+
+.feature-product_swiper_button-prev .swiper-button-prev {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #242424;
+    position: absolute;
+    left: -100px;
+    transition: all .6s ease;
+}
+
+.feature-product_swiper-slide:hover .swiper-button-prev {
+    left: 30px;
+}
+
+.feature-product_swiper_button-next {
+    display: inline-flex;
+    position: relative;
+}
+
+.feature-product_swiper_button-next .swiper-button-next {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #242424;
+    position: absolute;
+    right: 50px;
+    transition: all .6s ease;
+}
+
+.feature-product_swiper-slide:hover .swiper-button-next {
+    right: 160px;
+}

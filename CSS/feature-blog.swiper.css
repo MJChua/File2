@@ -1,0 +1,44 @@
+.feature-blog_swiper-body {
+  margin: 0 0 0 -120px;
+  padding: 0;
+  position: relative;
+  width: 1920px;
+}
+
+.feature-blog_swiper-container {
+  height: auto;
+  width: 100%;
+}
+
+.feature-blog_swiper-body .swiper-button-prev {
+  left: -30px;
+  transition: all 0.6s ease;
+}
+
+.feature-blog_swiper-body .swiper-container:hover .swiper-button-prev {
+  left: 10px;
+}
+
+.feature-blog_swiper-body .swiper-button-next {
+  right: -10px;
+  transition: all 0.6s ease;
+}
+
+.feature-blog_swiper-body .swiper-container:hover .swiper-button-next {
+  right: 30px;
+}
+
+.feature-blog .swiper-slide {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.swiper-slide_image {
+  transition: all 1.5s ease;
+}
+
+.swiper-slide_image:hover {
+  transform: scale(1.1);
+  transition: all 3s ease;
+}

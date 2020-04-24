@@ -1,0 +1,19 @@
+{
+  "name": "file1",
+  "version": "1.0.0",
+  "description": "請[參照此網站](https://www.oxo.com/) 竟可能的切出一模一樣的畫面\r 素材都可以直接從此網站上抓取，html架構可以自己更改，但畫面要一樣",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-jade": "^1.1.0"
+  },
+  "devDependencies": {
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.1"
+  }
+}
