@@ -9,6 +9,7 @@
 - HTML
 - CSS
 - JavaScript
+- RWD ( 部分 )
 - Node.js
 - Swiper ( https://swiperjs.com/ )
 - Free-icons ( https://icons8.com/icons )
